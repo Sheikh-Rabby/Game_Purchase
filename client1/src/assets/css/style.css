@@ -1,0 +1,36 @@
+.w{
+    width: 280px;
+    height: 250px;
+
+}
+
+.game-image {
+    width: 100%;       /* ✅ Responsive Width */
+    height: 200px;     /* ✅ Fixed Height */
+    object-fit: cover; /* ✅ ইমেজ যেন ঠিকভাবে ফিট হয় */
+    border-radius: 10px; /* ✅ কোণার স্টাইল */
+}
+.t{
+    text-decoration: none;
+}
+.game-image1 {
+    width: 100%;       /* ✅ Responsive Width */
+    height: 450px;     /* ✅ Fixed Height */
+    object-fit: cover; /* ✅ ইমেজ যেন ঠিকভাবে ফিট হয় */
+    border-radius: 10px; /* ✅ কোণার স্টাইল */
+}
+.m{
+    margin-top: 50px!important;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+
+    z-index: 1000; /* অন্যান্য এলিমেন্টের উপরে রাখে */
+}
+
+
+
+
